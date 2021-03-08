@@ -64,12 +64,13 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-            Fitness-Tracker
-            <i class='fas fa-heartbeat' />
+            #StriveForProgress
             </Link>
           </div>
-          <small class='website-rights'>Fitness-Tracker
-            <i class='fas fa-heartbeat' /></small>
+          <small class='website-rights'>
+          Adonis
+            <i class='fas fa-heartbeat' />Fitness-Tracker</small>
+            
           {/* <div class='social-icons'>
             <Link
               class='social-icon-link facebook'

@@ -20,7 +20,7 @@ function Cards() {
               text='
 Create and edit your personal fitness plan and share your progress with your coach.'
               label='Luxury'
-              path='/services'
+              path='/workout-plan'
             />
           </ul>
           {/* <ul className='cards__items'>
