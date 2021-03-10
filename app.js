@@ -18,6 +18,11 @@ const app = express();
 // ℹ️ This function is getting exported from the config folder. It runs most middlewares
 require("./config")(app);
 
+// mongoose <- don't know if this is necessary here
+const mongoose = require('mongoose')
+
+
+
 // 👇 Start handling routes here
 // Contrary to the views version, all routes are controlled from the routes/index.js
 const allRoutes = require("./routes");

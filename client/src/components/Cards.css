@@ -9,7 +9,7 @@ h1 {
 
 .cards__container {
   display: flex;
-  flex-flow: column;
+  flex-flow:row;
   align-items: center;
   max-width: 1120px;
   width: 90%;

@@ -30,7 +30,7 @@ function Navbar() {
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             Adonis
-            <i class='fas fa-heartbeat' />
+            <i className='fas fa-heartbeat' />
             Fitness-Tracker
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -48,10 +48,10 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Workout-Plan
+                Exercise Catalogue
               </Link>
             </li>
-            <li className='nav-item'>
+            {/* <li className='nav-item'>
               <Link
                 to='/products'
                 className='nav-links'
@@ -59,7 +59,7 @@ function Navbar() {
               >
                 Products
               </Link>
-            </li>
+            </li> */}
 
             <li>
               <Link
