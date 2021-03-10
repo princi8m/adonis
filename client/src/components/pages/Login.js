@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import { signup } from '../../services/auth';
+import { login } from '../../services/auth';
 
-export default class Signup extends Component {
+export default class Login extends Component {
 
   state = {
     username: '',
@@ -19,7 +19,7 @@ export default class Signup extends Component {
   handleSubmit = event => {
     event.preventDefault();
     const { username, password } = this.state;
-    signup(username, password)
+    login(username, password)
       .then(user => {
         if (user.message) {
           this.setState({
@@ -36,11 +36,10 @@ export default class Signup extends Component {
         }
       })
   }
-
   render() {
     return (
       <div>
-        <h2>Signup</h2>
+        <h2>Login</h2>
         <form onSubmit={this.handleSubmit}>
           <label htmlFor="username">Username: </label>
           <input
@@ -58,7 +57,7 @@ export default class Signup extends Component {
             onChange={this.handleChange}
             id="password"
           />
-          <button type="submit">Sign Up</button>
+          <button type="submit">Log in</button>
           {this.state.message && (
             <h3>{this.state.message}</h3>
           )}

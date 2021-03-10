@@ -40,7 +40,7 @@ Create and edit your personal fitness plan and share your progress with your coa
               src='images/img-8.jpg'
               text='Ride through the Sahara Desert on a guided camel tour'
               label='Adrenaline'
-              path='/sign-up'
+              path='/signup'
             />
           </ul> */}
         </div>

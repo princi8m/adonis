@@ -30,7 +30,7 @@ function Navbar() {
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             Adonis
-            <i class='fas fa-heartbeat' />
+            <i className='fas fa-heartbeat' />
             Fitness-Tracker
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -63,7 +63,7 @@ function Navbar() {
 
             <li>
               <Link
-                to='/sign-up'
+                to='/signup'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >

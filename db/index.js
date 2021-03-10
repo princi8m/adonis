@@ -1,4 +1,5 @@
 // ℹ️ package responsible to make the connection with mongodb
+require("dotenv/config");
 // https://www.npmjs.com/package/mongoose
 const mongoose = require("mongoose");
 
