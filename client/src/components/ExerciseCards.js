@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react';
 import './Cards.css';
 import Axios from 'axios';
 import ExerciseCardItem from './ExerciseCardItem';
-import cors from 'cors';
 
+/* 
 const exerciseData = [
   {
   name: "Bench Press",
@@ -20,7 +20,7 @@ const exerciseData = [
   description: "The barbell deadlift is a compound exercise used to develop overall strength and size in the posterior chain. It is a competition lift in the sport of powerlifting, but is also considered a classic benchmark of overall strength. When performed with the hands outside the knees, it is often called a conventional deadlift. When the feet are wide and the hands are inside the knees, it is a sumo deadlift.",
   image: "https://www.bodybuilding.com/images/2020/xdb/originals/xdb-07b-barbell-deadlift-m1-16x9.jpg"
 }
-]; 
+];  */
 
 function ExerciseCards() {
   const [exercises, setExercises] = useState([]);
